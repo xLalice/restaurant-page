@@ -1,6 +1,7 @@
 import { createInitialPage } from './initialPageModule';
 import { createMenuPage } from './menuPage';
 import { createContactPage } from './contactPage';
+import "./styles.css"
 
 let activeTab = 'Home';
 
