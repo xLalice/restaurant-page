@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xLalice/restaurant-page.git"
+  },
+  "keywords": [
+    "Javascript",
+    "DOM",
+    "Manipulation",
+    "Dynamic",
+    "Rendering",
+    "Webpack"
+  ],
+  "author": "John Lorenz Inocentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xLalice/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/xLalice/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

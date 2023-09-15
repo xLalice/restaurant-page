@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Nordic'; 
+    src: url('../assets/nordic-font.ttf') format('woff2');
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url("../assets/header-bg.jpg") no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding: 100px 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#header > h1 {
+    font-size: 4rem;
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    text-align: center;
+    font-family: "Nordic", sans-serif;
+    letter-spacing: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul > li > a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: "Nordic";
+
+}
+
+.menu-header{
+    padding: 55px 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-logo {
+    font-family: "Nordic";
+    font-size: 1rem;
+    margin-bottom: 170px;
+}
+
+.menu-title {
+    font-size: 8vw;
+    font-family: "Nordic";
+    margin-left: 65px;
+}
+
+.menu-description {
+    margin-left: 65px;
+    margin-right: 40%;
+}
+
+.dishes {
+    height: 90vh;
+    margin-bottom: 130px;
+}
+
+.dishes > img {
+    height: 100%;
+    width: 50%;
+}
+
+.dish-name {
+    text-align: left;
+    font-family: "Nordic";
+    margin-bottom: 10px;
+}
+
+.dish-description {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.menu-dishes {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#nav-menu {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+}
+
+.contacts-div {
+    padding: 55px;
+}
+
+.contacts-title {
+    font-family: "Nordic";
+    font-size: 4rem;
+}
+
+.contacts-div > p {
+    color: #333333; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Nordic";
+    letter-spacing: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #253237; /* Dark blue button */
+    color: #ffffff; /* White text on button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Nordic";
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a232c; /* Slightly darker blue on hover */
+}
